@@ -5,6 +5,7 @@ import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 import "./App.css";
 import { FiSettings } from "react-icons/fi";
 
+
 const App = () => {
   const activeMenu = false;
   return (
@@ -70,6 +71,13 @@ const App = () => {
         </div>
       </BrowserRouter>
     </div>
+
+    // サンプル
+    // <div style={{ margin: "2em" }}>
+    //   <RecoilRoot>
+    //     <TodoList />
+    //   </RecoilRoot>
+    // </div>
   );
 };
 
